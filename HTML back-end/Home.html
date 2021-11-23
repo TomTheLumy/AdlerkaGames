@@ -4,19 +4,75 @@
 <title>Adlerka Games</title>
 </head>
 <body>
-    <h1>WELCOME</h1>
-    <p>My first website and it is for adlerkars.</p>
+    <!--<h1>AdlerkaGames</h1>-->
+    <img src="https://lh3.googleusercontent.com/Zudxuv8VozI4ds56vw_PHE9LtpFpERYLHQEN7SpWJcXp3oel95p4qPOWbfx4MziPxhE7m3uEQJY1qfb0nmcVogaaXhSRXaTPoCC3HvP0c-GKuzug7y4Nw2RrKxrBUTn1yBvaX0Qcz2Q=w2400" alt="AdlerkaGames" class="center"> <!--/*width="500" height="600" font-family:monospace -webkit-font-smoothing:none>*/-->
+    <h2 class="center">Vyberte si hru:</h2>
     <style>
+      img{
+        /*justify-content: center;
+        align-items: center;*/
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+        html {
+        height: 100%;
+    }
+       
         h1 {
-            position: absolute;
-            left: 50%;
+          font-family: monospace;    /*Momentálne neexistuje, treba upraviť dobudúcna, bolo povodný nadpis, neskor zmenený na image*/
+          text-align: center;
+          -webkit-font-smoothing: none;
+           /*<p>My first website and it is for adlerkars and everyone else!</p>
+           position: absolute;
+            left: 50%;*/
             font-size: 35px;
-            margin-right: 500px;
+            /*margin-right: 500px; proste blbosti ktere nefungovali jak mneli*/
+    }
+        h2{
+          font-family:Courier New;      /*text na oznámenie možnosti výberu hry*/
+         /* position: absolute;*/
+            /*left: 50%;
+            text-align: center;*/
+            text-align: center;
+            font-size: 28px;
+            /*margin-right: 500px;*/
     }
         body {
-            background-color: blueviolet;
+          background: no-repeat;
+          background-size: cover;
+          
+            background: #c31432;  /* fallback for old browsers */
+background-image: -webkit-linear-gradient(to top, #ddcf0b, #e71989);  /* Chrome 10-25, Safari 5.1-6 */
+background-image: linear-gradient(to top, #ddcf0b, #e71989); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         }
+        a:link {
+          font-weight: bold;
+          position: absolute;
+          bottom: 20px;
+          margin-left: 20px;
+  color: #e71989;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #e71989;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  /*font-weight: normal;*/
+  color: rgb(12, 1, 22);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
     </style>
-    
+    <p><a href="https://adlerkaa.vercel.app/"target="_blank">Pozrite si aj oficiálnu stránku Adlerky!</a></p>
 </body>
 </html>
